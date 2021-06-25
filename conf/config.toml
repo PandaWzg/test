@@ -1,0 +1,39 @@
+debug = true
+env = "dev"
+logfile = "wm-infoflow-api-go/logs/"
+logLevel = "debug"
+messageChannel = "wm-infoflow-api_message_dev"
+
+[frontend]
+host = "127.0.0.1:8081"
+logfile = "wm-infoflow-api-go.%Y%m%d"
+cache = false
+
+[api]
+key = "JIOjiHU0lciaUFi299h9"
+secret = "5Eqw%rZoVZ^zG3QC0VWR8Z7#2&Cd9@dP"
+aesKey = "&mw*K@ZjzOZuLvmb"
+aesKey256 = "5@8Dg&kpo9(=-(&G5@8Dg&bm34(=-kjg"
+
+[mysql]
+    [mysql.wm_infoflow]
+        host = "xxx"
+        port = "3306"
+        database = ""
+        username = ""
+        password = ""
+
+
+[redis]
+host = ""
+password = ""
+
+[kafka]
+    [kafka.default]
+        topic = ""
+        group = ""
+        broker = [
+        ]
+
+
+
